@@ -4,8 +4,66 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    li {
+      list-style: none;
+    }
+    body{
+      overflow-x: hidden;
+    }
+    #root {
+      width: 100vw;
+      height: 100vh;
+      background-color: #ccc;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    ul li {
+      width: 30vw;
+      height: 30vh;
+      margin-right: 10px;
+      outline: 1px solid black;
+      background-color: #fff;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #clickDiv{
+      background-color: aqua;
+      width: 100%;
+      height: 100%;
+
+      position: absolute;
+      top:0;
+      left: 0;
+      z-index: 10;
+    }
+  </style>
 </head>
+
 <body>
   
+  <ul id="root">
+    <li id="area1">
+      <div id="clickDiv"></div>
+    </li>
+    <li id="area2"></li>
+    <li id="area3"></li>
+    <li id="area4"></li>
+    <li id="area5"></li>
+    <li id="area6"></li>
+    <li id="area7"></li>
+    <li id="area8"></li>
+    <li id="area9"></li>
+  </ul>
+
 </body>
 </html>
