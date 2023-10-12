@@ -7,11 +7,11 @@ button = document.getElementsByTagName("button")
 // random = Math.floor(Math.random()*8-0 + 0)
 // console.log(random)
 
-for(i=0; i<div.length; i++){
-  div[i].style.width = "100px"
-  div[i].style.height = "100px"
-  div[i].style.backgroundColor = "grey"
-}
+// for(i=0; i<div.length; i++){
+//   div[i].style.width = "100px"
+//   div[i].style.height = "100px"
+//   div[i].style.backgroundColor = "grey"
+// }
 
 makeTarget = function(random){
   random = Math.floor(Math.random()*9-0 + 0)
