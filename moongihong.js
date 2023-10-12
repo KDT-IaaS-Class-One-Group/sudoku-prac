@@ -1,19 +1,10 @@
 
+// 전역 변수 설정
+let li = document.getElementsByTagName("li")
+let makeP = document.createElement("p")
+let p = document.getElementsByTagName("p")
+// let button = document.getElementsByTagName("button")
 
-li = document.getElementsByTagName("li")
-console.log(li)
-makeP = document.createElement("p")
-p = document.getElementsByTagName("p")
-button = document.getElementsByTagName("button")
-
-// random = Math.floor(Math.random()*8-0 + 0)
-// console.log(random)
-
-// for(i=0; i<div.length; i++){
-//   div[i].style.width = "100px"
-//   div[i].style.height = "100px"
-//   div[i].style.backgroundColor = "grey"
-// }
 
 makeTarget = function(random){
   random = Math.floor(Math.random()*9-0 + 0)
@@ -43,5 +34,5 @@ li[i].addEventListener("click",function(event){
   makeTarget()
 // })
 
-exports.module = makeTarget;
+// exports.module = makeTarget;
 // 타겟 div 안에 p태그로 랜덤으로 생성
