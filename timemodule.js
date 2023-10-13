@@ -1,4 +1,6 @@
-function limittime(num) { 
+export function limittime(num) { 
+  console.log('limittime 가동중');
+
   let setting = setInterval(function() {
   // 초당 1씩 감소
   num--;
@@ -15,8 +17,7 @@ function limittime(num) {
 }
 
 // console.log(limittime(20));
-module.exports = limittime();
-
+// export default timemodule = limittime();
 
 
 

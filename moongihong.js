@@ -1,5 +1,8 @@
 
 // 전역 변수 설정
+import { limittime } from "./timemodule.js"
+
+
 let li = document.getElementsByTagName("li")
 let makeP = document.createElement("p")
 let p = document.getElementsByTagName("p")
